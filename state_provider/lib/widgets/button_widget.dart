@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../models/Counter.dart';
+import 'package:provider/provider.dart';
 
 class ButtonWidget extends StatelessWidget {
   @override
@@ -8,8 +10,7 @@ class ButtonWidget extends StatelessWidget {
       child: FlatButton(
         color: Colors.blue[300],
         onPressed: () {
-          print("Nothing happens when we press this button...");
-          print("...but we want that counter to be updated!!!");
+          context.read<Counter>().increment();
         },
         child: Padding(
           padding: const EdgeInsets.all(20.0),

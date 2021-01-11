@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../models/Counter.dart';
 
 class CounterWidget extends StatelessWidget {
-  final counter = 42;
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -13,7 +13,7 @@ class CounterWidget extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(20.0),
             child: Text(
-              counter.toString(),
+              context.watch<Counter>().count.toString(),
               style: TextStyle(
                 fontSize: 42.0,
                 letterSpacing: -2.0,
