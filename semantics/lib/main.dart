@@ -1,5 +1,5 @@
-import 'package:clipboard/clipboard.dart';
 import 'package:flutter/material.dart';
+import 'package:semantics/widgets/copyTextField.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      showSemanticsDebugger: false,
       title: 'Semantics Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -39,59 +40,49 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController controller = TextEditingController();
     return Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
         ),
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                'You have pushed the button this many times:',
-              ),
-              Text(
-                '$_counter',
-                style: Theme.of(context).textTheme.headline4,
-              ),
-              Semantics(
-                  onCopy: () {
-                    debugPrint('Hey, your text has been copied!');
-                  },
-                  onCut: () {
-                    debugPrint('I said copy.');
-                  },
-                  child: Text("Copy this text")),
-              Row(
-                children: [
-                  Expanded(
-                    child: TextField(
-                      decoration:
-                          InputDecoration(hintText: "Copy your text here"),
-                      controller: controller,
-                      autocorrect: false,
-                    ),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 30.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 90.0),
+                  child: Row(
+                    children: [
+                      Column(
+                        children: [
+                          Text(
+                            'You have pushed the button this many times:',
+                          ),
+                          Text(
+                            '$_counter',
+                            style: Theme.of(context).textTheme.headline4,
+                          )
+                        ],
+                      )
+                    ],
                   ),
-                  IconButton(
-                    icon: Icon(Icons.content_copy),
-                    onPressed: () {
-                      FlutterClipboard.copy(controller.text);
-                    },
-                  )
-                ],
-              )
-            ],
+                ),
+                CopyTextField()
+              ],
+            ),
           ),
         ),
         floatingActionButton: Semantics(
-          label: "Press this button to increase",
-          hint: "Press to increase",
-          value: '$_counter',
-          child: FloatingActionButton(
-              onPressed: _incrementCounter,
-              tooltip: 'Increment',
-              child: Icon(Icons.add)),
+          hint: "Double tap to increase.",
+          value: 'The counter current value is $_counter.',
+          child: ExcludeSemantics(
+            key: new Key("Counter button"),
+            child: FloatingActionButton(
+                onPressed: _incrementCounter,
+                tooltip: 'Increment',
+                child: Icon(Icons.add)),
+          ),
         ));
   }
 }
