@@ -46,4 +46,6 @@ With this code, with the first tap of this button, the screen reader will say:
 
 This will provide the user information about what is this control and what it will do when double tapped.
 
-We use **ExcludeSemantics** to disable **FloatingActionButton**'s accessibility features, otherwise they will also be used along with the ones we configured. 
+We use **ExcludeSemantics** to disable **FloatingActionButton**'s accessibility features, otherwise they will also be used along with the ones we configured.
+
+This is just a tiny portion of all the functionality and related widgets that Semantics provides but it will show you the basic concept underlying all this fancy features so feel free to experiment and to investigate this [Semantics](https://api.flutter.dev/flutter/widgets/Semantics-class.html) docs to get a deep undersanding about this powerful widget.
