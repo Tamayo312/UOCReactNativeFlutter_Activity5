@@ -11,5 +11,7 @@ At this point Semantics makes its appearence, by using it to design our UIs we w
 
 This doesn't mean that without this class our app won't have accessibility features, many of Flutter's widgets have them implemented by default. So, why use Semantics then? Well, we should use the Semantics class when this default functionality is not enough.
 
-Now that we understand the importance and use-cases of the Semantics class, let's get to work:
+Now that we understand the importance and use-cases of the Semantics class, let's get to work in some examples of its usage.
+
+
 
