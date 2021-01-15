@@ -1,0 +1,2557 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2021 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2021 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2021 MARVEL</a>",
+  "etag": "667c4ecdada01a8a987ec5a584b95e293053b9fd",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 152,
+    "count": 20,
+    "results": [
+      {
+        "id": 10781,
+        "digitalId": 29834,
+        "title": "Spider-Man (1990) #22",
+        "issueNumber": 22,
+        "variantDescription": "",
+        "description": "The guest-stars keep on coming as the Webbed Wonder is now also joined by Sleepwalker! Will Spidey and his myriad of allies triumph in the end?",
+        "modified": "2017-01-24T17:17:46-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The guest-stars keep on coming as the Webbed Wonder is now also joined by Sleepwalker! Will Spidey and his myriad of allies triumph in the end?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10781",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10781/spider-man_1990_22?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Spider-Man-22/digital-comic/29834?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=29834&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/29834?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1992-05-10T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2017-01-30T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2013-05-21T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/58335cf594d30",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/58335cf594d30",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10781/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/704",
+              "name": "Erik Larsen",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5237",
+              "name": "Gregory Wright",
+              "role": "colorist"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10781/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010890",
+              "name": "Deathlok"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010925",
+              "name": "Ghost Rider (Daniel Ketch)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011265",
+              "name": "Sinister Six"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010761",
+              "name": "Sleepwalker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10781/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23761",
+              "name": "interior to Spider-Man (1990) #22",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67004",
+              "name": "Spider-Man 22 cover",
+              "type": "cover"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10781/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10797,
+        "digitalId": 6950,
+        "title": "Spider-Man (1990) #37",
+        "issueNumber": 37,
+        "variantDescription": "",
+        "description": "MAXIMUM CARNAGE PART 12 After clearing the streets of wild and enraged denizens of New York City, Spider-Man and his team are ready for an epic showdown with Carnage and his cronies!",
+        "modified": "2017-08-16T13:03:34-0400",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [
+          {
+            "type": "issue_preview_text",
+            "language": "en-us",
+            "text": "MAXIMUM CARNAGE PART 12 After clearing the streets of wild and enraged denizens of New York City, Spider-Man and his team are ready for an epic showdown with Carnage and his cronies!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10797",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10797/spider-man_1990_37?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Spider-Man-37/digital-comic/6950?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=6950&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/6950?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/1404",
+            "name": "Spider-Man Maximum Carnage (Trade Paperback)"
+          }
+        ],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1993-08-10T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2010-07-19T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2010-11-24T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 1.75
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/00/5bc8b717e98f0",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/00/5bc8b717e98f0",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/51d332ee8fd61",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 11,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10797/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+              "name": "Tom Defalco",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6049",
+              "name": "Danny Fingeroth",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/3754",
+              "name": "Mike Lackey",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6986",
+              "name": "J. M. DeMatteis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/362",
+              "name": "Scott Hanna",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/435",
+              "name": "Al Milgrom",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1163",
+              "name": "Tom Lyle",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/3923",
+              "name": "Ericka Moran",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1917",
+              "name": "Kevin Tinsley",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1819",
+              "name": "Rick Parker",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1759",
+              "name": "Joe Rosen",
+              "role": "letterer"
+            }
+          ],
+          "returned": 11
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10797/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10797/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23800",
+              "name": "Spider-Man (1990) #37",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23801",
+              "name": "The Light! (Maximum Carnage, Chapter 12)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23802",
+              "name": "Crawl Space",
+              "type": "letters"
+            }
+          ],
+          "returned": 3
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10797/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/151",
+              "name": "Maximum Carnage"
+            }
+          ],
+          "returned": 1
+        }
+      },
+      {
+        "id": 10829,
+        "digitalId": 42979,
+        "title": "Spider-Man (1990) #66",
+        "issueNumber": 66,
+        "variantDescription": "",
+        "description": "The explosive finale to THE RETURN OF KAINE! At last, the fateful showdown you've been waiting for: Ben Reilly vs. Kaine in a fight to the finish! Is there anything left of the heroism Spidey once saw in the wayward clone?",
+        "modified": "2019-07-19T18:34:54-0400",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The explosive finale to THE RETURN OF KAINE! At last, the fateful showdown you've been waiting for: Ben Reilly vs. Kaine in a fight to the finish! Is there anything left of the heroism Spidey once saw in the wayward clone?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10829",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10829/spider-man_1990_66?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=42979&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1996-03-01T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-07-22T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/d0/5d2f46ba2b2dd",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/d0/5d2f46ba2b2dd",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10829/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1286",
+              "name": "Howard Mackie",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13196",
+              "name": "John Romita Jr.",
+              "role": "penciller"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10829/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10829/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23859",
+              "name": "spider-man 66 story",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67024",
+              "name": "Spider-Man 66 cover",
+              "type": "cover"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10829/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10845,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #80",
+        "issueNumber": 80,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10845",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10845/spider-man_1990_80?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1997-05-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10845/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10845/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10845/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23885",
+              "name": "Cover #23885",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23886",
+              "name": "Blood Simple",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23887",
+              "name": "Crawl Space",
+              "type": "letters"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/153320",
+              "name": "cover from Spider-Man (1990) #80",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/153321",
+              "name": "story from Spider-Man (1990) #80",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 5
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10845/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10861,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #95",
+        "issueNumber": 95,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10861",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10861/spider-man_1990_95?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1998-09-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10861/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10861/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10861/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23932",
+              "name": "Cover #23932",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23933",
+              "name": "Free Fall",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23934",
+              "name": "Crawl Space",
+              "type": "letters"
+            }
+          ],
+          "returned": 3
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10861/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10774,
+        "digitalId": 22237,
+        "title": "Spider-Man (1990) #16",
+        "issueNumber": 16,
+        "variantDescription": "",
+        "description": "SABOTAGE PART 1 An explosion rocks the World Trade Center. But it's not just an explosion Spidey has to worry about! Warpath and Juggernaut are going head to toe! Can the Wallcrawler help take Juggy down?",
+        "modified": "2011-12-19T16:12:39-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_preview_text",
+            "language": "en-us",
+            "text": "SABOTAGE PART 1 An explosion rocks the World Trade Center. But it's not just an explosion Spidey has to worry about! Warpath and Juggernaut are going head to toe! Can the Wallcrawler help take Juggy down?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10774",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10774/spider-man_1990_16?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Spider-Man-16/digital-comic/22237?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=22237&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/22237?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1991-11-10T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-05-27T18:08:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2012-01-25T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/5bc76483bd1f2",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/5bc76483bd1f2",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/50/50b5234baa4fa",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10774/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12581",
+              "name": "Chris Eliopoulos",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/75",
+              "name": "Todd Mcfarlane",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5237",
+              "name": "Gregory Wright",
+              "role": "colorist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10774/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10774/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23752",
+              "name": "",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/66998",
+              "name": " Spider-Man (1990) #16",
+              "type": "cover"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10774/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10790,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #30",
+        "issueNumber": 30,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10790",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10790/spider-man_1990_30?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1993-01-10T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 1.75
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 8,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10790/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+              "name": "Virtual Calligr",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+              "name": "Tom Defalco",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6049",
+              "name": "Danny Fingeroth",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/3754",
+              "name": "Mike Lackey",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2427",
+              "name": "Sam DeLaRosa",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2081",
+              "name": "Chris Marrinan",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/215",
+              "name": "Ann Nocenti",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1917",
+              "name": "Kevin Tinsley",
+              "role": "colorist"
+            }
+          ],
+          "returned": 8
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10790/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10790/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23778",
+              "name": "Cover #23778",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23779",
+              "name": "Brainstorm! (Return to the Mad Dog Ward, Part Two)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23780",
+              "name": "Crawl Space",
+              "type": "letters"
+            }
+          ],
+          "returned": 3
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10790/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10806,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #45",
+        "issueNumber": 45,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10806",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10806/spider-man_1990_45?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1994-04-01T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10806/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10806/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10806/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23823",
+              "name": "Cover #23823",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23824",
+              "name": "The Dream Before (Pursuit, Part One)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10806/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10822,
+        "digitalId": 29672,
+        "title": "Spider-Man (1990) #6",
+        "issueNumber": 6,
+        "variantDescription": "",
+        "description": "The Hobgoblin is losing his mind, and it's up to Spider-Man and Ghost Rider to stop his demonic rampage! Will the Webbed Wonder and the Spirit of Vengeance defeat this vile villain?",
+        "modified": "2017-01-24T16:06:11-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Hobgoblin is losing his mind, and it's up to Spider-Man and Ghost Rider to stop his demonic rampage! Will the Webbed Wonder and the Spirit of Vengeance defeat this vile villain?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10822",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10822/spider-man_1990_6?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Spider-Man-6/digital-comic/29672?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=29672&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/29672?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1991-01-10T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2017-01-30T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2013-05-07T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/583351b65b79b",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/583351b65b79b",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10822/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/75",
+              "name": "Todd Mcfarlane",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1819",
+              "name": "Rick Parker",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1833",
+              "name": "Jim Salicrup",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5237",
+              "name": "Gregory Wright",
+              "role": "colorist"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10822/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009347",
+              "name": "Hobgoblin (Roderick Kingsley)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10822/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23851",
+              "name": "Cover #23851",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23852",
+              "name": "Masques, Part 1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10822/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10838,
+        "digitalId": 43094,
+        "title": "Spider-Man (1990) #74",
+        "issueNumber": 74,
+        "variantDescription": "",
+        "description": "Spidey and Daredevil team up once again to come down on the mysterious Don Fortunato and his high-powered Hydra weaponry threatening New York City!",
+        "modified": "2019-07-19T18:54:14-0400",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Spidey and Daredevil team up once again to come down on the mysterious Don Fortunato and his high-powered Hydra weaponry threatening New York City!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10838",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10838/spider-man_1990_74?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=43094&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1996-11-01T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-07-22T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/5d2f4661e1bc8",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/5d2f4661e1bc8",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10838/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1286",
+              "name": "Howard Mackie",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13196",
+              "name": "John Romita Jr.",
+              "role": "penciller"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10838/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10838/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23870",
+              "name": "spider-man 74 story",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67032",
+              "name": "Spider-Man 74 cover",
+              "type": "cover"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10838/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10854,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #89",
+        "issueNumber": 89,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10854",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10854/spider-man_1990_89?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1998-03-01T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10854/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10854/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10854/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23913",
+              "name": "Cover #23913",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23914",
+              "name": "Cover #23914",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23915",
+              "name": "Spider, Spider (Spiderhunt, Part 3)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23916",
+              "name": "Crawl Space",
+              "type": "letters"
+            }
+          ],
+          "returned": 4
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10854/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10767,
+        "digitalId": 2515,
+        "title": "Spider-Man (1990) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "TORMENT PART ONE The Lizard is back and he's looking for blood! Will Spidey be able to fend off his old foe?",
+        "modified": "2018-09-14T13:19:39-0400",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_preview_text",
+            "language": "en-us",
+            "text": "TORMENT PART ONE The Lizard is back and he's looking for blood! Will Spidey be able to fend off his old foe?"
+          },
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "TORMENT PART ONE The Lizard is back and he's looking for blood! Will Spidey be able to fend off his old foe?"
+          },
+          {
+            "type": "70th_winner_desc",
+            "language": "en-us",
+            "text": "The premier issue of Todd McFarlane's solo run with the webcrawler looks so sticky we may not be able to put it down!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10767",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10767/spider-man_1990_1?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Spider-Man-1/digital-comic/2515?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=2515&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/2515?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/10766",
+            "name": "Spider-Man (1990) #1"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1990-08-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2007-11-13T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2011-07-13T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/5bc76088e860c",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/5bc76088e860c",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/e0/58c9aceed68a3",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/90/4bc35ef309c76",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10767/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/75",
+              "name": "Todd Mcfarlane",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1819",
+              "name": "Rick Parker",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1832",
+              "name": "Bob Sharen",
+              "role": "colorist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10767/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10767/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23744",
+              "name": " Spider-Man (1990) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23745",
+              "name": "Torment Part 1",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/206106",
+              "name": "story from Spider-Man (1990) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 3
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10767/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10783,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #24",
+        "issueNumber": 24,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10783",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10783/spider-man_1990_24?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1992-07-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10783/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2112",
+              "name": "Larry Alexander",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1286",
+              "name": "Howard Mackie",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5928",
+              "name": "Howard M. Shum",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2088",
+              "name": "Andrew Pepoy",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5237",
+              "name": "Gregory Wright",
+              "role": "colorist"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10783/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10783/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23763",
+              "name": "",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67006",
+              "name": "Spider-Man 24 cover",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/153307",
+              "name": "story from Spider-Man (1990) #24",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 3
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10783/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/29",
+              "name": "Infinity War"
+            }
+          ],
+          "returned": 1
+        }
+      },
+      {
+        "id": 10799,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #39",
+        "issueNumber": 39,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10799",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10799/spider-man_1990_39?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1993-10-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10799/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10799/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10799/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23805",
+              "name": "Cover #23805",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23806",
+              "name": "Light the Night!, Part Two",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10799/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10831,
+        "digitalId": 42990,
+        "title": "Spider-Man (1990) #68",
+        "issueNumber": 68,
+        "variantDescription": "",
+        "description": "Ben's life is a whirlwind of turmoil from the plot against him and Peter, and it gets even worse when the Hobgoblin strikes!",
+        "modified": "2019-07-19T18:39:55-0400",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Ben's life is a whirlwind of turmoil from the plot against him and Peter, and it gets even worse when the Hobgoblin strikes!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10831",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10831/spider-man_1990_68?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=42990&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1996-05-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-07-22T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/5d2f46d638540",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/5d2f46d638540",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10831/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1286",
+              "name": "Howard Mackie",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13196",
+              "name": "John Romita Jr.",
+              "role": "penciller"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10831/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10831/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23861",
+              "name": "spider-man 68 story",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67026",
+              "name": "Spider-Man 68 cover",
+              "type": "cover"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10831/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10847,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #82",
+        "issueNumber": 82,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10847",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10847/spider-man_1990_82?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1997-08-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10847/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10847/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10847/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23891",
+              "name": "Cover #23891",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23892",
+              "name": "You've Got to Have Friends (of Humanity?)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23893",
+              "name": "Crawl Space",
+              "type": "letters"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/153324",
+              "name": "cover from Spider-Man (1990) #82",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/153325",
+              "name": "story from Spider-Man (1990) #82",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 5
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10847/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10863,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #97",
+        "issueNumber": 97,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 44,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10863",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10863/spider-man_1990_97?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1998-11-10T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10863/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/362",
+              "name": "Scott Hanna",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/3929",
+              "name": "Siobhan Hanna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+              "name": "Richard Starkings",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/375",
+              "name": "Bob Harras",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4131",
+              "name": "Matt Hicks",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1282",
+              "name": "Ralph Macchio",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1286",
+              "name": "Howard Mackie",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13196",
+              "name": "John Romita Jr.",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5237",
+              "name": "Gregory Wright",
+              "role": "colorist"
+            }
+          ],
+          "returned": 9
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10863/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10863/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23938",
+              "name": "Cover #23938",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23939",
+              "name": "Let the Heavens Tremble at the Power of the Goblin! (The Final Chapter, Part 2 of 4)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23940",
+              "name": "Crawl Space",
+              "type": "letters"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23941",
+              "name": "Statement of Ownership",
+              "type": "statement of ownership"
+            }
+          ],
+          "returned": 4
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10863/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10776,
+        "digitalId": 29826,
+        "title": "Spider-Man (1990) #18",
+        "issueNumber": 18,
+        "variantDescription": "",
+        "description": "The Sinister Six attack! It's up to Spidey and Ghost Rider to stop them in their tracks. But they have a new sixth member who may be their most powerful yet!",
+        "modified": "2017-01-24T16:55:34-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Sinister Six attack! It's up to Spidey and Ghost Rider to stop them in their tracks. But they have a new sixth member who may be their most powerful yet!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10776",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10776/spider-man_1990_18?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Spider-Man-18/digital-comic/29826?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=29826&utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/29826?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1992-01-10T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2017-01-30T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2013-05-21T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/30/5833598edae73",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/30/5833598edae73",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10776/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/704",
+              "name": "Erik Larsen",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5237",
+              "name": "Gregory Wright",
+              "role": "colorist"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10776/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010925",
+              "name": "Ghost Rider (Daniel Ketch)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011265",
+              "name": "Sinister Six"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10776/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23754",
+              "name": "interior to Spider-Man (1990) #18",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67000",
+              "name": "Spider-Man 18 cover",
+              "type": "cover"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10776/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10792,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #32",
+        "issueNumber": 32,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10792",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10792/spider-man_1990_32?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1993-03-01T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10792/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10792/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10792/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23784",
+              "name": "Cover #23784",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23785",
+              "name": "Vengeance, Part I",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23786",
+              "name": "Crawl Space",
+              "type": "letters"
+            }
+          ],
+          "returned": 3
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10792/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 10808,
+        "digitalId": 0,
+        "title": "Spider-Man (1990) #47",
+        "issueNumber": 47,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 36,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/10808",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/10808/spider-man_1990_47?utm_campaign=apiRef&utm_source=7e6ebf4f236b3f7cc478e8ca54e259f1"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+          "name": "Spider-Man (1990 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1994-06-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10808/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10808/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009347",
+              "name": "Hobgoblin (Roderick Kingsley)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10808/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23830",
+              "name": "Cover #23830",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23831",
+              "name": "Old Habits ... (Beware the Rage of a Desperate Man!, Chapter 2)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/10808/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}
