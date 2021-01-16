@@ -42,14 +42,20 @@ class _ComicsGridViewState extends State<ComicsGridView> {
   }
 
   getComics() async {
-    var comics = await _api.getComicsByTitle("Wolverine");
+    var comics = await _api.getComicsByTitle("Venom");
     setState(() {
       _comics = comics;
     });
   }
 
   getGridItems() {
-    return _comics
-        .map((comic) => ComicCard(comic: comic).toList();
+    return _comics.map((comic) => ComicCard(comic: comic)).toList();
+  }
+
+  getImageNetwork(Comic comic) {
+    if (comic.thumbnail.length != 0) {
+      return Image.network(comic.thumbnail['path'] + "/portrait_uncanny.jpg",
+          fit: BoxFit.fill);
+    }
   }
 }

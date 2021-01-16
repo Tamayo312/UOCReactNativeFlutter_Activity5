@@ -7,23 +7,21 @@ class ComicCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: SizedBox(
-        child: InkWell(
-          // onLongPress functionality like Instagram?
-          onTap: () {
-            print("HOLI");
-          },
-          highlightColor: Colors.redAccent[100],
-          child: Card(
-              semanticContainer: true,
-              margin: EdgeInsets.all(10),
-              elevation: 5,
-              clipBehavior: Clip.antiAliasWithSaveLayer,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10)),
-              child: getImageNetwork(comic)),
-        ),
+    return SizedBox(
+      child: InkWell(
+        // onLongPress functionality like Instagram?
+        onTap: () {
+          print("HOLI");
+        },
+        highlightColor: Colors.redAccent[100],
+        child: Card(
+            semanticContainer: true,
+            margin: EdgeInsets.all(10),
+            elevation: 5,
+            clipBehavior: Clip.antiAliasWithSaveLayer,
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            child: getImageNetwork(comic)),
       ),
     );
   }
