@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Comic {
   final int id;
   final int digitalId;
@@ -91,5 +93,20 @@ class Comic {
         characters: json['characters'] as Map,
         stories: json['stories'] as Map,
         events: json['events'] as Map);
+  }
+
+  getImageNetwork() {
+    if (this.thumbnail.length != 0) {
+      return Image.network(this.thumbnail['path'] + "/portrait_uncanny.jpg",
+          fit: BoxFit.fill);
+    }
+  }
+
+  List getCharacters() {
+    if (this.characters['items'] != null) {
+      return this.characters['items'];
+    }
+
+    return new List();
   }
 }

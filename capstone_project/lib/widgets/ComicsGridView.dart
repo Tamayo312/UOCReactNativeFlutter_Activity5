@@ -53,11 +53,4 @@ class _ComicsGridViewState extends State<ComicsGridView> {
   getGridItems() {
     return _comics.map((comic) => ComicCard(comic: comic)).toList();
   }
-
-  getImageNetwork(Comic comic) {
-    if (comic.thumbnail.length != 0) {
-      return Image.network(comic.thumbnail['path'] + "/portrait_uncanny.jpg",
-          fit: BoxFit.fill);
-    }
-  }
 }

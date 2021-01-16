@@ -1,4 +1,5 @@
 import 'package:capstone_project/models/Comic.dart';
+import 'package:capstone_project/pages/ComicPage.dart';
 import 'package:flutter/material.dart';
 
 class ComicCard extends StatelessWidget {
@@ -11,7 +12,7 @@ class ComicCard extends StatelessWidget {
       child: InkWell(
         // onLongPress functionality like Instagram?
         onTap: () {
-          print("HOLI");
+          _getComic(context, comic);
         },
         highlightColor: Colors.redAccent[100],
         child: Card(
@@ -21,15 +22,17 @@ class ComicCard extends StatelessWidget {
             clipBehavior: Clip.antiAliasWithSaveLayer,
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-            child: getImageNetwork(comic)),
+            child: comic.getImageNetwork()),
       ),
     );
   }
 
-  getImageNetwork(Comic comic) {
-    if (comic.thumbnail.length != 0) {
-      return Image.network(comic.thumbnail['path'] + "/portrait_uncanny.jpg",
-          fit: BoxFit.fill);
-    }
+  _getComic(BuildContext context, Comic comic) {
+    Navigator.push(
+        context,
+        new MaterialPageRoute(
+            builder: (context) => ComicPage(
+                  comic: comic,
+                )));
   }
 }

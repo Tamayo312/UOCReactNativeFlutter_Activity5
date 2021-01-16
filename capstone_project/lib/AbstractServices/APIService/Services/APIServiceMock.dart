@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:capstone_project/AbstractServices/APIService/APIService.dart';
+import 'package:capstone_project/models/Character.dart';
 import 'package:capstone_project/models/Comic.dart';
 import 'package:capstone_project/models/Search.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -24,7 +25,7 @@ class APIServiceMock extends APIService {
   }
 
   @override
-  Future<Comic> getComic(String comicID) async {
-    return new Comic();
+  Future<Character> getCharacter(String comicID) async {
+    return new Character();
   }
 }

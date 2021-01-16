@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:capstone_project/AbstractServices/APIService/APIService.dart';
+import 'package:capstone_project/models/Character.dart';
 import 'package:capstone_project/models/Comic.dart';
 import 'package:capstone_project/models/Search.dart';
 import 'package:http/http.dart' as http;
@@ -14,17 +15,9 @@ class APIServiceLive extends APIService {
   Future<List> getComicsByTitle(Search search) async {
     List comics = new List.empty();
 
-    var _ts = "1";
-    var _hash =
-        md5.convert(utf8.encode(_ts + _private_key + _public_key)).toString();
-    var url = "https://gateway.marvel.com:443/v1/public/comics?title=" +
-        search.title +
-        "&orderBy=focDate&apikey=7e6ebf4f236b3f7cc478e8ca54e259f1&hash=" +
-        _hash +
-        "&ts=" +
-        _ts;
-
     var client = http.Client();
+    var url = getComicsURLBySearch(search);
+
     try {
       final uriResponse = await client.get(url);
       final json = jsonDecode(uriResponse.body);
@@ -42,7 +35,69 @@ class APIServiceLive extends APIService {
   }
 
   @override
-  Future<Comic> getComic(String comicID) async {
-    return new Comic();
+  Future<Character> getCharacter(String url) async {
+    Character character = new Character();
+
+    var client = http.Client();
+    var _url = getCharacterURL(url);
+
+    try {
+      final uriResponse = await client.get(_url);
+      final json = jsonDecode(uriResponse.body);
+
+      if (json['code'] == 200) {
+        character = Character.fromJson(json['data']['results'][0]);
+      }
+    } finally {
+      client.close();
+    }
+
+    return character;
+  }
+
+  String generateURLHash(_ts) {
+    return md5
+        .convert(utf8.encode(_ts + _private_key + _public_key))
+        .toString();
+  }
+
+  String getCharacterURL(String url) {
+    var _ts = "1";
+    var _hash = generateURLHash(_ts);
+
+    return url +
+        "?apikey=7e6ebf4f236b3f7cc478e8ca54e259f1&hash=" +
+        _hash +
+        "&ts=" +
+        _ts;
+  }
+
+  String getComicsURLBySearch(Search search) {
+    var _ts = "1";
+    var _hash = generateURLHash(_ts);
+
+    var url =
+        "https://gateway.marvel.com:443/v1/public/comics?&orderBy=focDate&apikey=7e6ebf4f236b3f7cc478e8ca54e259f1&hash=" +
+            _hash +
+            "&ts=" +
+            _ts;
+
+    if (search.title != "") {
+      url += "&title=" + search.title;
+    }
+
+    if (search.dateDescriptor != null) {
+      url += "&dateDescriptor=" + search.dateDescriptor;
+    }
+
+    if (search.characters != null) {
+      url += "&characters=" + search.characters.toString();
+    }
+
+    if (search.sharedAppearances != null) {
+      url += "&sharedAppearances=" + search.sharedAppearances.toString();
+    }
+
+    return url;
   }
 }
