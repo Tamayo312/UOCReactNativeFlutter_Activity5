@@ -77,7 +77,7 @@ class APIServiceLive extends APIService {
     var _hash = generateURLHash(_ts);
 
     var url =
-        "https://gateway.marvel.com:443/v1/public/comics?&orderBy=focDate&apikey=7e6ebf4f236b3f7cc478e8ca54e259f1&hash=" +
+        "https://gateway.marvel.com:443/v1/public/comics?&orderBy=-onsaleDate&apikey=7e6ebf4f236b3f7cc478e8ca54e259f1&hash=" +
             _hash +
             "&ts=" +
             _ts;
