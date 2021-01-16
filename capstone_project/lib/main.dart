@@ -1,4 +1,4 @@
-import 'package:capstone_project/widgets/ComicsGridView.dart';
+import 'package:capstone_project/Pages/SearchPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,26 +13,7 @@ class MarvelAPI extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.red,
           visualDensity: VisualDensity.adaptivePlatformDensity),
-      home: SearchPage(title: 'Marvel API'),
+      home: SearchPage(),
     );
-  }
-}
-
-class SearchPage extends StatefulWidget {
-  SearchPage({Key key, this.title}) : super(key: key);
-  final String title;
-
-  @override
-  _SearchPageState createState() => _SearchPageState();
-}
-
-class _SearchPageState extends State<SearchPage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
-        body: Center(child: ComicsGridView()));
   }
 }

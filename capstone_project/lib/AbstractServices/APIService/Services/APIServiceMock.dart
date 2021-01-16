@@ -2,11 +2,12 @@ import 'dart:convert';
 
 import 'package:capstone_project/AbstractServices/APIService/APIService.dart';
 import 'package:capstone_project/models/Comic.dart';
+import 'package:capstone_project/models/Search.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 class APIServiceMock extends APIService {
   @override
-  Future<List> getComicsByTitle(String title) async {
+  Future<List> getComicsByTitle(Search search) async {
     List comics = new List.empty();
 
     // Get mock Marvel API response form .json file

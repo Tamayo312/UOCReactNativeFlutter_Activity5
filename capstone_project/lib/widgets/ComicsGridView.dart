@@ -2,11 +2,13 @@ import 'package:capstone_project/AbstractServices/APIService/APIService.dart';
 import 'package:capstone_project/AbstractServices/APIService/Services/APIServiceLive.dart';
 import 'package:capstone_project/AbstractServices/APIService/Services/APIServiceMock.dart';
 import 'package:capstone_project/models/Comic.dart';
+import 'package:capstone_project/models/Search.dart';
 import 'package:capstone_project/widgets/ComicCard.dart';
 import 'package:flutter/material.dart';
 
 class ComicsGridView extends StatefulWidget {
-  ComicsGridView({Key key}) : super(key: key);
+  final Search search;
+  ComicsGridView({Key key, this.search}) : super(key: key);
 
   @override
   _ComicsGridViewState createState() => _ComicsGridViewState();
@@ -18,7 +20,7 @@ class _ComicsGridViewState extends State<ComicsGridView> {
   @override
   void initState() {
     super.initState();
-    getComics();
+    getComics(widget.search);
   }
 
   List _comics = new List<Comic>();
@@ -41,8 +43,8 @@ class _ComicsGridViewState extends State<ComicsGridView> {
     );
   }
 
-  getComics() async {
-    var comics = await _api.getComicsByTitle("Venom");
+  getComics(Search search) async {
+    var comics = await _api.getComicsByTitle(search);
     setState(() {
       _comics = comics;
     });
