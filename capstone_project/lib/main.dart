@@ -11,9 +11,8 @@ class MarvelAPI extends StatelessWidget {
     return MaterialApp(
       title: 'Marvel API',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+          primarySwatch: Colors.red,
+          visualDensity: VisualDensity.adaptivePlatformDensity),
       home: SearchPage(title: 'Marvel API'),
     );
   }
