@@ -25,22 +25,8 @@ class _SearchPageState extends State<SearchPage> {
               Text("Search your favourite Marvel comics!"),
               TextField(
                 controller: _controller,
+                decoration: InputDecoration(hintText: "Search by title"),
               ),
-              // DropdownButton<String>(
-              //   value: formatType,
-              //   onChanged: (String newValue) {
-              //     setState(() {
-              //       formatType = newValue;
-              //     });
-              //   },
-              //   items: <String>['comic', 'collection']
-              //       .map<DropdownMenuItem<String>>((String value) {
-              //     return DropdownMenuItem<String>(
-              //       value: value,
-              //       child: Text(value),
-              //     );
-              //   }).toList(),
-              // ),
               RaisedButton(
                 onPressed: () => _search(context, _controller),
                 child: Text("Search"),

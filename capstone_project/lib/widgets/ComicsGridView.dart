@@ -18,6 +18,11 @@ class _ComicsGridViewState extends State<ComicsGridView> {
   APIService _api = new APIServiceLive();
 
   @override
+  void dispose() {
+    super.dispose();
+  }
+
+  @override
   void initState() {
     super.initState();
     getComics(widget.search);
@@ -45,9 +50,11 @@ class _ComicsGridViewState extends State<ComicsGridView> {
 
   getComics(Search search) async {
     var comics = await _api.getComicsByTitle(search);
-    setState(() {
-      _comics = comics;
-    });
+    if (mounted) {
+      setState(() {
+        _comics = comics;
+      });
+    }
   }
 
   getGridItems() {
